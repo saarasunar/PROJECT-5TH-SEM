@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <?php include('head.php'); ?>
+    <?php include ('head.php'); ?>
     <meta charset="UTF-8">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/login.css" rel="stylesheet">
 
-    <title>Database Error | JMC-Cafeteria</title>
+    <title>About Us | JMC-Cafeteria</title>
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -29,13 +29,17 @@
     </header>
     <div class="mt-5"></div>
     <div class="container form-signin text-center restricted mt-auto">
-            <i class="mt-4 bi bi-hdd-network-fill text-danger h1 display-2"></i>
-            <h3 class="mt-2 mb-3 fw-normal text-bold">Connection Error</h3>
-            <p class="mb-3 fw-normal text-bold text-wrap">Cannot connect to JMC-Cafeteria database right now.</p>
-            <a class="btn btn-danger btn-sm w-50" href="index.php">Try again.</a>
+        <i class="mt-4 bi bi-telephone-fill text-success h1 display-2"></i>
+        <h3 class="mt-2 mb-3 fw-normal text-bold">About Us</h3>
+        <h4 class="mt-2 mb-3 fw-normal ">Jaya Multiple Campus</h4>
+        <p class="mt-2 mb-3 fw-normal h6 ">Department Of Computer Application</p>
+        <!-- <p class="mb-3 fw-bold text-bold text-wrap">The Four Snippets</p> -->
+        <h4 class="mt-2 mb-3 fw-normal ">Principal</h4>
+        <p class="mt-2 mb-3 fw-normal h6 ">Bhawani Prasad Paudel</p>
+        <a class="btn btn-success btn-sm w-50" href="index.php">Return To Home</a>
     </div>
 
-    <?php include('footer.php')?>
+    <?php include ('footer.php') ?>
 </body>
 
 </html>
